@@ -6,6 +6,8 @@ class Solution:
         for i in address:
             if i == ".":
                 ans += "[.]"
+                
+                
             else:
                 ans += i
                 
