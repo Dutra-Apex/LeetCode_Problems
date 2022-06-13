@@ -27,3 +27,14 @@ class Solution:
             
         b.next = list1 or list2
         
+        
+# Recursive solution:
+
+        """
+        if list1.val < list2.val:
+            list1.next = self.mergeTwoLists(list1.next, list2)
+            return list1
+        else:
+            list2.next = self.mergeTwoLists(list2.next, list1)
+            return list2
+       """
