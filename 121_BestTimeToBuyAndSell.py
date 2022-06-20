@@ -8,14 +8,11 @@ class Solution:
         left = 0
         right = 1
             
-        while right < len(prices):
-            
+        while right < len(prices):          
             if prices[right] - prices[left] > profit:
-                profit = prices[right] - prices[left]
-            
+                profit = prices[right] - prices[left]            
             if prices[left] > prices[right]:
-                left = right
-                
+                left = right                
             right += 1
             
         return profit
