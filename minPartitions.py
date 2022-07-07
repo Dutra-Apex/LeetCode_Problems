@@ -1,10 +1,8 @@
 class Solution:
     def minPartitions(self, n: str) -> int:
         
-        arr = []
-        
+        arr = []     
         for i in n:
-            arr.append(int(i))
-            
+            arr.append(int(i)         
         return max(arr)
-        
+       
