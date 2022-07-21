@@ -28,18 +28,4 @@ def main():
         print("%5d index? %d" % (n, binary_search(a, n)))
 
 
-def test_last():
-    a = [1, 1, 1, 2, 2, 2, 2, 2, 2, 3]
-    assert binary_search(a, 3) == 9
-
-
-def test_first():
-    a = [1, 1, 1, 2, 2, 2, 2, 2, 2]
-    assert binary_search(a, 2) == 3
-
-def test_first1():
-    a = [1, 1, 1, 2, 2, 2, 2, 2, 2]
-    assert binary_search(a, 1) == 0
-
-
 main()
