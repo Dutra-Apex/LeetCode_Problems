@@ -10,3 +10,13 @@ class Solution:
                 return fib(n-1) + fib(n-2)
 
         return fib(n)
+
+# Mathematical Approach:
+    
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        
+        phi = (1 + sqrt(5))/2
+        phi_ = (1 - sqrt(5))/2
+        ans = ((phi**(n+1) - phi_**(n+1))/sqrt(5))
+        return int(ans)
