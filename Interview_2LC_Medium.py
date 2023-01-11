@@ -95,10 +95,6 @@ Hint: r, c
 
 '''
 
-'''
-
-'''
-
 def helper(grid, i, j):
     isIsland = True
 
